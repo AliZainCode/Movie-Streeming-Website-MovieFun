@@ -65,7 +65,7 @@ class Command(BaseCommand):
 
         new_ids = set()
 
-        position = 1
+        # position = 1
 
         for subject_item in home_subjects:
 
@@ -124,7 +124,7 @@ class Command(BaseCommand):
                     "cover_image": subject.get("cover", {}).get("url", ""),
                     "play_url": play_url,
                     "detail_path": subject.get("detailPath", ""),
-                    "position": position,
+                    # "position": position,
                 }
             )
 
@@ -133,7 +133,7 @@ class Command(BaseCommand):
             else:
                 print(f"[UPDATED] {subject.get('title')}")
 
-            position += 1
+            # position += 1
 
             time.sleep(0.5)
 

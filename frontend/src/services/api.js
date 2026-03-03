@@ -1,5 +1,5 @@
 // const BASE_URL = "http://127.0.0.1:8006/api";
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8006/api";
+const BASE_URL = "https://alizain79.pythonanywhere.com/api";
 
 export const dynamic = "force-dynamic";
 
