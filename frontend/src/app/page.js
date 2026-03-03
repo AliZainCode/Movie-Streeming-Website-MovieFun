@@ -12,7 +12,7 @@ export default async function Home() {
   const sections = [
     { title: "🔥 Trending Now", items: items.slice(0, 20) },
     { title: "🔥 Trending in Cinema", items: items.slice(20, 40) },
-    { title: "Hot Short TV", items: items.slice(20, 30) },
+    { title: "Hot Short TV", items: items.slice(40, 60) },
     { title: "Comedy", items: items.filter((i) => hasGenre(i, "comedy")) },
     { title: "Romance", items: items.filter((i) => hasGenre(i, "romance")) },
     { title: "Anime", items: items.filter((i) => hasGenre(i, "anime")) },
