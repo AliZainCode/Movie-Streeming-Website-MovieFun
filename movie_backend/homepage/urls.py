@@ -3,5 +3,5 @@ from .views import HomePageListView, HomePageDetailView
 
 urlpatterns = [
     path("", HomePageListView.as_view()),
-    path("details/<str:subject_id>/", HomePageDetailView.as_view()),
+    path("detail/<str:subject_id>/", HomePageDetailView.as_view()),
 ]
