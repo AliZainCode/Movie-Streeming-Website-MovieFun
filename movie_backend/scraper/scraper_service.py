@@ -185,4 +185,4 @@ def scrape_all_series(per_page=28):
 
         page += 1
 
-    print("Scraping completed successfully!")
+    print("Scraping completed successfully completed!")
